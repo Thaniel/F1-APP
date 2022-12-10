@@ -1,0 +1,33 @@
+.mercedes{
+    border-left: 5px solid #00D2BE;
+}
+.red_bull{
+    border-left: 5px solid #0600EF;
+}
+.mclaren{
+    border-left: 5px solid #FF9800;
+}
+.ferrari{
+    border-left: 5px solid #FC0000;
+}
+.alpine{
+    border-left: 5px solid #0090FF;
+}
+.alphatauri{
+    border-left: 5px solid #2B4562;
+}
+.aston_martin{
+    border-left: 5px solid #006F62;
+}
+.alfa{
+    border-left: 5px solid #900000;
+}
+.williams{
+    border-left: 5px solid #005AFF;
+}
+.haas{
+    border-left: 5px solid #CCCCCC;
+}
+.default{
+    border-left: 5px solid #111111;
+}
