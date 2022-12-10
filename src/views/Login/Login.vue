@@ -1,5 +1,9 @@
 <template>
   <div class="login">
+    <a href="https://github.com/Thaniel/F1-APP" target="_blank">
+      <v-img src="../../assets/github_icon.png" alt="Github logo" class="git_logo" />
+    </a>
+
     <v-snackbar v-model="snackbar" top :multi-line=true color="error"> El e-mail y contraseña no son correctos.
       <template v-slot:action="{ attrs }">
         <v-btn color="white" text v-bind="attrs" @click="snackbar = false" style="text-decoration: underline">
@@ -8,8 +12,8 @@
       </template>
     </v-snackbar>
 
-    <v-container class="img_container">
-      <img src="../../assets/f1_red.png" alt="F1 logo" class="avatar">
+    <v-container>
+      <img src="../../assets/f1_red.png" alt="F1 logo">
     </v-container>
 
     <h1 class="h2 text-uppercase font-weight-bold">Welcome motor fanatic</h1>
@@ -104,6 +108,20 @@ export default {
 img{
   width: 30%;
 }
+
+.git_logo{
+  width: 3%;
+  margin-left: 100%;
+}
+
+/*Una vez alcance los 1490px realizas el cambio*/
+@media screen and (max-width: 800px) {
+  .git_logo{
+    width: 8%;
+    margin-left: 92%;
+  }
+}
+
 #form_login{
   margin-left: 10%;
   margin-right: 10%;

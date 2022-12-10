@@ -1,8 +1,8 @@
 <template>
   <div class="home">
     <NavBar></NavBar>
-
     <div class="contenedor ma-0">
+
       <img src="https://firebasestorage.googleapis.com/v0/b/f1-app-daa49.appspot.com/o/wallpaper.jpg?alt=media&token=0a8dab17-39c3-4c18-b9b7-26b346e47d79" alt="F1 wallpap" width="100%" class="mt-12"/>
       <div class="centrado text-h4 text-md-h1 text-lg-h1 text-xl-h1">F1 APP</div>
     </div>
@@ -40,8 +40,10 @@
           </v-sheet>
         </template>
       </v-carousel-item>
-
     </v-carousel>
+    <a href="https://github.com/Thaniel/F1-APP" target="_blank">
+      <v-img src="../../assets/github_icon_white.png" alt="Github logo" class="git_logo"/>
+    </a>
   </div>
 </template>
 
@@ -151,7 +153,17 @@ export default {
   display: inline-block;
   color: #D50000;
 }
+.git_logo{
+  width: 5%;
+  margin: 5% auto;
+}
 
+/*Una vez alcance los 1490px realizas el cambio*/
+@media screen and (max-width: 800px) {
+  .git_logo{
+    width: 12%;
+  }
+}
 .carousel{
   display: inline-block;
   margin-top: -10px !important;
