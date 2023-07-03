@@ -2,6 +2,8 @@
 
 This project is a web application that is compatible with any device and accesible from a web browser intended for Formula 1 fans to follow more about the competition.
 
+  [F1 APP](https://f1-app-daa49.firebaseapp.com/)
+
 ![alt text](https://github.com/Thaniel/F1-APP/blob/main/img/Home.PNG)
 
 
