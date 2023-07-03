@@ -21,4 +21,4 @@ export const countries = ['Afghanistan', 'Albania', 'Algeria', 'Andorra', 'Angol
 
 export const url_constructors = "https://ergast.com/api/f1/current/constructorStandings.json"
 export const url_drivers  = "https://ergast.com/api/f1/current/driverStandings.json"
-export const url_next_gp  = "https://ergast.com/api/f1/2022/next.json"
+export const url_next_gp  = "https://ergast.com/api/f1/2023/next.json"
