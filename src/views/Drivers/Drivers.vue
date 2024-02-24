@@ -57,7 +57,7 @@
     <v-card id="drivers_container" elevation="5">
       <template v-for="d in drivers">
         <v-hover v-slot="{ hover }" v-bind:key="d.id" >
-          <v-flex class="col-12 col-md-6 col-lg-6 col-xl-6">
+          <v-flex class="col-12 col-md-6 col-lg-4 col-xl-3">
             <v-card class="mx-auto driver_container" :id="d.codigo" :elevation="hover ? 24 : 2" :class="{ 'on-hover': hover }" @click="showDetailsDriver(d.id)">
               <img height="300" :src="d.foto_piloto" id="image" alt="F1 Driver">
               <v-card-title class="text-h5 text-uppercase" >{{d.nombre + " " + d.apellidos}}</v-card-title>

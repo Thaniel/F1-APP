@@ -6,8 +6,7 @@
     </div>
 
     <template>
-      <v-parallax :src="circuit.foto_gp" alt="F1 Circuit">
-      </v-parallax>
+      <v-img :src="circuit.foto_gp" alt="F1 Circuit"/>
     </template>
 
     <div id="schedule_container">

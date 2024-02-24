@@ -40,11 +40,11 @@
     <v-card class="info_container_main" elevation="6">
       <h2 :class="team.codigo" class="text-h5 text-md-h4 text-lg-h4 text-xl-h4">PILOTOS</h2><br>
       <v-col class="col-6 pa-6">
-        <img :src="team.url_piloto_1" height="300" class="image_drivers" alt="Driver image 1">
+        <img :src="team.url_piloto_1" class="image_drivers img_fluid" alt="Driver image 1">
         <h1 class="text-sm-h6 subtitle-1"> {{ team.piloto_1 }} </h1>
       </v-col>
       <v-col class="col-6 pa-6">
-        <img :src="team.url_piloto_2" height="300" class="image_drivers" alt="Driver image 2">
+        <img :src="team.url_piloto_2" class="image_drivers img_fluid" alt="Driver image 2">
         <h1 class="text-sm-h6 subtitle-1"> {{ team.piloto_2 }} </h1>
       </v-col>
     </v-card>
@@ -91,6 +91,11 @@ export default {
   width: 100%;
   color: white;
   display: inline-block;
+}
+
+.img_fluid {
+  max-width: 100%;
+  height: auto;
 }
 
 .info_container_main{
